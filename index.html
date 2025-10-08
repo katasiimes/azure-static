@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+    <meta charset="UTF-8">
+    <title>Azure-kysymyksiä</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h2>Azure: Kysymyksiä ja vastauksia</h2>
+
+        <ol>
+            <li>Mihin tarkoitukseen Azure AI -palvelut on suunniteltu?</li>
+            <li>Mikä on Azure Resource Managerin tehtävä?</li>
+            <li>Mikä ero on Azure Blob Storagella ja File Storagella?</li>
+            <li>Miten Azure Monitor auttaa sovellusten valvonnassa?</li>
+            <li>Voiko Azurea käyttää IoT-laitteiden hallintaan?</li>
+        </ol>
+
+        <div id="answers" style="display: none;">
+            <ol>
+                <li>Azure AI auttaa tekoälyn hyödyntämisessä ilman omaa AI-infraa.</li>
+                <li>Se hallinnoi resurssien käyttöönottoa ja organisointia.</li>
+                <li>Blob on objektitallennusta, File tarjoaa SMB-pohjaisen jaetun levytilan.</li>
+                <li>Monitor tarjoaa lokit, metrikat ja hälytykset sovellusten tilasta.</li>
+                <li>Kyllä, Azure IoT Hub on suunniteltu juuri tähän tarkoitukseen.</li>
+            </ol>
+        </div>
+
+        <button onclick="toggleAnswers()">Näytä vastaukset</button>
+    </div>
+
+    <script src="js/functions.js"></script>
+</body>
+</html>
