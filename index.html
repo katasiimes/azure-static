@@ -2,34 +2,31 @@
 <html lang="fi">
 <head>
     <meta charset="UTF-8">
-    <title>Azure-kysymyksiä</title>
+    <title>Azure: Kysymyksiä ja vastauksia</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+    <h2>Azure: Kysymyksiä ja vastauksia</h2>
 
-    <div class="container">
-        <h2>Azure: Kysymyksiä ja vastauksia</h2>
+    <ol>
+        <li>Mitä Azure tekee?</li>
+        <li>Voiko Azurella tallentaa tiedostoja?</li>
+        <li>Toimiiko Azure selaimessa?</li>
+        <li>Onko Azure Microsoftin tuote?</li>
+        <li>Voiko Azurea käyttää koodin tallentamiseen?</li>
+    </ol>
 
+    <div id="answers" style="display: none;">
         <ol>
-            <li>Mihin tarkoitukseen Azure AI -palvelut on suunniteltu?</li>
-            <li>Mikä on Azure Resource Managerin tehtävä?</li>
-            <li>Mikä ero on Azure Blob Storagella ja File Storagella?</li>
-            <li>Miten Azure Monitor auttaa sovellusten valvonnassa?</li>
-            <li>Voiko Azurea käyttää IoT-laitteiden hallintaan?</li>
+            <li><em>Azure on pilvipalvelu, jolla voi ajaa sovelluksia ja tallentaa tietoa.</em></li>
+            <li><em>Kyllä, Azurella voi tallentaa tiedostoja eri tallennuspalveluihin.</em></li>
+            <li><em>Kyllä, suurin osa Azuren toiminnoista toimii selaimessa.</em></li>
+            <li><em>Kyllä, Microsoft kehittää ja ylläpitää Azurea.</em></li>
+            <li><em>Kyllä, esimerkiksi GitHubin voi yhdistää Azureen koodin hallintaa varten.</em></li>
         </ol>
-
-        <div id="answers" style="display: none;">
-            <ol>
-                <li>Azure AI auttaa tekoälyn hyödyntämisessä ilman omaa AI-infraa.</li>
-                <li>Se hallinnoi resurssien käyttöönottoa ja organisointia.</li>
-                <li>Blob on objektitallennusta, File tarjoaa SMB-pohjaisen jaetun levytilan.</li>
-                <li>Monitor tarjoaa lokit, metrikat ja hälytykset sovellusten tilasta.</li>
-                <li>Kyllä, Azure IoT Hub on suunniteltu juuri tähän tarkoitukseen.</li>
-            </ol>
-        </div>
-
-        <button onclick="toggleAnswers()">Näytä vastaukset</button>
     </div>
+
+    <button onclick="toggleAnswers()">Näytä vastaukset</button>
 
     <script src="js/functions.js"></script>
 </body>
